@@ -17,6 +17,20 @@ function App() {
             <td className="accordion">
               <details>
                 <summary className="title">
+                  <span>High Pulp - my opinion</span>
+                </summary>
+                <div className="content">
+                    listen to them. you won't regret it.
+                </div>
+              </details>
+            </td>
+          </tr>
+          {/* end */}
+          {/* begginning */}
+          <tr>
+            <td className="accordion">
+              <details>
+                <summary className="title">
                   <span>check out my record collection on discogs</span>
                 </summary>
                 <div className="content">
