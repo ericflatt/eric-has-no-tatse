@@ -56,9 +56,6 @@ td {
   display: flex;
 }
 
-/* summary::marker{
-    content: "◎";
-} */
 
 summary span {
   margin-left: 8px;
