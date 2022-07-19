@@ -4,9 +4,9 @@ function App() {
   return (
     <div className="container">
       <div className="gf">
-        <h1>ghostly frog</h1>
+        <h1>eric has no taste</h1>
       </div>
-      hello, this is ghostly frog.
+      hello, this is eric has no taste.
       <span className="bio">
         a collection of whatever i want to write/am thinking about
       </span>
