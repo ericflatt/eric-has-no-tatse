@@ -18,23 +18,34 @@ class Contactform extends React.Component {
     return (
       <div>
         <form name="contact" method="post">
-      <input type="hidden" name="form-name" value="contact" />
-      <p>
-        <label htmlFor="name">Name</label> <br />
-        <input type="text" id="name" name="name" required />
-      </p>
-      <p>
-        <label htmlFor="email">Email</label> <br />
-        <input type="email" id="email" name="email" required />
-      </p>
-      <p>
-        <label htmlFor="message">Message</label> <br />
-        <textarea id="message" name="message" required></textarea>
-      </p>
-      <p>
-        <input type="submit" value="Submit message" />
-      </p>
-    </form>
+          <input type="hidden" name="form-name" value="contact" />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="artist name"
+            required
+            autoComplete="off"
+          />
+          <input
+            type="text"
+            id="name"
+            name="album or song name"
+            placeholder="album or song name"
+            required
+            autoComplete="off"
+          />
+          <input
+            type="text"
+            id="name"
+            name="link"
+            placeholder="spotify link"
+            required
+            autoComplete="off"
+          />
+
+          <input type="submit" value="submit" />
+        </form>
         {/* <form
           name="contact"
           // action="https://send.pageclip.co/vKmFJdXlwFsRoY4Ue1mgG2qt2sLHMvqM"
