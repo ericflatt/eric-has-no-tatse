@@ -1,4 +1,5 @@
 import "./App.css";
+import Contactform from "./form.js";
 
 function App() {
   return (
@@ -6,10 +7,16 @@ function App() {
       <div className="gf">
         <h1>eric has no taste</h1>
       </div>
-      hello, this is eric has no taste.
+      hello, this is eric has no taste(i have great taste btw).
       <span className="bio">
         a collection of whatever i want to write/am thinking about
       </span>
+      <div>
+        <div className="form">
+          <span>want me to review your music? send me the details.</span>
+          <Contactform />
+        </div>
+      </div>
       <table className="accordion-container names">
         <tbody>
           {/* begginning */}
@@ -20,7 +27,7 @@ function App() {
                   <span>High Pulp - my opinion</span>
                 </summary>
                 <div className="content">
-                    listen to them. you won't regret it.
+                  greatest jazz group my ears have ever heard. listen to them. you won't regret it.
                 </div>
               </details>
             </td>
@@ -57,8 +64,8 @@ function App() {
                   <div className="track">
                     my favorite track:
                     <iframe
-                    title="jazz sabbath"
-                      style={{borderRadius:"12px"}}
+                      title="jazz sabbath"
+                      style={{ borderRadius: "12px" }}
                       src="https://open.spotify.com/embed/track/2ev6UJ3ag8XlCCVZpNsgAg?utm_source=generator"
                       width="100%"
                       height="80"
