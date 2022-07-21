@@ -104,3 +104,7 @@ input:focus{
   border: solid green;
   border-image: none;
 }
+
+#textarea{
+  font-family: Arial, Helvetica, sans-serif;
+}
