@@ -18,6 +18,7 @@ class Contactform extends React.Component {
     return (
       <div>
         <form
+          name="contact"
           // action="https://send.pageclip.co/vKmFJdXlwFsRoY4Ue1mgG2qt2sLHMvqM"
           className="pageclip-form"
           method="post"
