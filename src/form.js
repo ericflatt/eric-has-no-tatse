@@ -17,7 +17,7 @@ class Contactform extends React.Component {
   render() {
     return (
       <div>
-        <form name="contact" method="post">
+        <form name="music" method="post">
           <input type="hidden" name="form-name" value="contact" />
           <input
             type="text"

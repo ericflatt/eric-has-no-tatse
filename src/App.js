@@ -7,9 +7,9 @@ function App() {
       <div className="gf">
         <h1>eric has no taste</h1>
       </div>
-      hello, this is eric has no taste(i have great taste btw).
+      hello, this is eric has no taste(i actually have great taste).
       <span className="bio">
-        a collection of whatever i want to write/am thinking about
+        a collection of whatever i want to write/am thinking about.
       </span>
       <div>
         <div className="form">
