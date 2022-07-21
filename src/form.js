@@ -24,6 +24,7 @@ class Contactform extends React.Component {
           method="post"
           data-netlify="true"
         >
+          <input type="hidden" name="form-name" value="contact" />
           <input
             autoComplete="off"
             type="text"
