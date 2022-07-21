@@ -5,35 +5,52 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-   <!-- Primary Meta Tags -->
-<title>eric has no taste</title>
-<meta name="title" content="eric has no taste">
-<meta name="description" content="a blog of whatever i want to write about, mostly music reviews.">
+    <!-- Primary Meta Tags -->
+    <title>eric has no taste</title>
+    <meta name="title" content="eric has no taste" />
+    <meta
+      name="description"
+      content="a blog of whatever i want to write about, mostly music reviews."
+    />
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3XEB59PWSF"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3XEB59PWSF"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-3XEB59PWSF');
-</script>
+      gtag("config", "G-3XEB59PWSF");
+    </script>
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://erichasnotaste.com">
-<meta property="og:title" content="eric has no taste">
-<meta property="og:description" content="a blog of whatever i want to write about, mostly music reviews.">
-<meta property="og:image" content="https://imgur.com/pNrYvck">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://erichasnotaste.com" />
+    <meta property="og:title" content="eric has no taste" />
+    <meta
+      property="og:description"
+      content="a blog of whatever i want to write about, mostly music reviews."
+    />
+    <meta property="og:image" content="https://imgur.com/pNrYvck" />
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary">
-<meta property="twitter:url" content="https://erichasnotaste.netlify.app/">
-<meta property="twitter:title" content="eric has no taste">
-<meta property="twitter:description" content="a blog of whatever i want to write about, mostly music reviews.">
-<meta property="twitter:image" content="https://imgur.com/pNrYvck">
-<link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary" />
+    <meta
+      property="twitter:url"
+      content="https://erichasnotaste.netlify.app/"
+    />
+    <meta property="twitter:title" content="eric has no taste" />
+    <meta
+      property="twitter:description"
+      content="a blog of whatever i want to write about, mostly music reviews."
+    />
+    <meta property="twitter:image" content="https://imgur.com/pNrYvck" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -59,14 +76,14 @@
       <textarea name="message"></textarea>
     </form> -->
 
-    <form name="music" netlify netlify-honeypot="bot-field" hidden>
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
       <input
         type="text"
         id="name"
         name="name"
         placeholder="artist name"
         required
-        autoComplete="off"
+        autocomplete="off"
       />
       <input
         type="text"
@@ -74,7 +91,7 @@
         name="album or song name"
         placeholder="album or song name"
         required
-        autoComplete="off"
+        autocomplete="off"
       />
       <input
         type="text"
@@ -82,11 +99,21 @@
         name="link"
         placeholder="spotify link"
         required
-        autoComplete="off"
+        autocomplete="off"
       />
+
+      <textarea
+        autocomplete="off"
+        id="name"
+        name="anything else"
+        rows="4"
+        cols="50"
+      >
+      </textarea>
 
       <input type="submit" value="submit" />
     </form>
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

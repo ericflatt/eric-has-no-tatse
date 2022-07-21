@@ -17,7 +17,7 @@ class Contactform extends React.Component {
   render() {
     return (
       <div>
-        <form name="music" method="post">
+        <form name="contact" method="post">
           <input type="hidden" name="form-name" value="contact" />
           <input
             type="text"
@@ -43,6 +43,8 @@ class Contactform extends React.Component {
             required
             autoComplete="off"
           />
+
+          <textarea id="textarea" name="anything else" rows="4" placeholder="anything else?"></textarea>
 
           <input type="submit" value="submit" />
         </form>
