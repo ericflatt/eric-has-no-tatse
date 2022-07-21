@@ -53,10 +53,39 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <!-- <form name="contact" netlify netlify-honeypot="bot-field" hidden>
       <input type="text" name="name" />
       <input type="email" name="email" />
       <textarea name="message"></textarea>
+    </form> -->
+
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="artist name"
+        required
+        autoComplete="off"
+      />
+      <input
+        type="text"
+        id="name"
+        name="album or song name"
+        placeholder="album or song name"
+        required
+        autoComplete="off"
+      />
+      <input
+        type="text"
+        id="name"
+        name="link"
+        placeholder="spotify link"
+        required
+        autoComplete="off"
+      />
+
+      <input type="submit" value="submit" />
     </form>
     <!--
       This HTML file is a template.
