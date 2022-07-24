@@ -108,3 +108,12 @@ input:focus{
 #textarea{
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.back-to-top{
+  cursor: pointer;
+  text-align: right;
+}
+
+.back-to-top:hover{
+  text-decoration: underline;
+}
