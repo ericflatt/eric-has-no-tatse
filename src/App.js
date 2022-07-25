@@ -82,7 +82,7 @@ function App() {
                   <span>movie review - Kill Bill Vol 1</span>
                 </summary>
                 <div className="content">
-                  i need a track suit
+                  i need a track suit - 9/10
                 </div>
               </details>
             </td>
