@@ -14,7 +14,7 @@ function App() {
       </span>
       <div>
         <div className="form">
-          <span>want me to review your music? send me the details.</span>
+          <span>want me to review something specific? send me the details.</span>
           <Contactform />
         </div>
       </div>

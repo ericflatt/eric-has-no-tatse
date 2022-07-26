@@ -44,7 +44,7 @@ table {
 } */
 
 td {
-  border: 2px solid rgba(0, 128, 0, .5);
+  border: 2px solid rgba(0, 128, 0, 0.5);
   width: 33.33333%;
   padding: 1em;
   border-radius: 4px;
@@ -55,7 +55,6 @@ td {
   margin-top: 4px;
   display: flex;
 }
-
 
 summary span {
   margin-left: 8px;
@@ -78,42 +77,52 @@ iframe {
   margin-top: 16px;
 }
 
-.form{
+.form {
   margin: 16px 0px 8px 0px;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   width: 250px;
 }
 
-form input{
+form input {
   margin: 4px 0px;
   border: 2px solid black;
 }
 
-input:focus{
+::placeholder {
+  color: grey;
+}
+
+input:focus {
   outline: none;
   border: 2px solid green;
-} 
+}
 
-.form-button{
+.form-button {
   /* background-color: rgba(0, 128, 0, .); */
   outline: none;
   border: solid green;
   border-image: none;
 }
 
-#textarea{
+#textarea {
   font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid black;
 }
 
-.back-to-top{
+#textarea:focus {
+  outline: none;
+  border: 2px solid green;
+}
+
+.back-to-top {
   cursor: pointer;
   text-align: right;
 }
 
-.back-to-top:hover{
+.back-to-top:hover {
   text-decoration: underline;
 }
