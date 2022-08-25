@@ -46,7 +46,7 @@ class Contactform extends React.Component {
 
           <textarea id="textarea" name="anything else" rows="4" placeholder="anything else?"></textarea>
 
-          <input type="submit" value="submit" />
+          <input className="submit-button" type="submit" value="submit" />
         </form>
         {/* <form
           name="contact"
