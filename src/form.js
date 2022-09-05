@@ -13,6 +13,7 @@ class Contactform extends React.Component {
   handleClick() {
     alert("thanks for the submission. the page will now refresh.");
   }
+  
 
   render() {
     return (

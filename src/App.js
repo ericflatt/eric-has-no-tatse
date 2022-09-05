@@ -12,6 +12,7 @@ function App() {
       <span className="bio">
         a collection of whatever i want to write/am thinking about(mostly music reviews).
       </span>
+      <a href="https://www.discogs.com/user/ericflatt/collection" target={"blank"}>my discogs</a>
       <div>
         <div className="form">
           <span>want me to review something specific? send me the details.</span>
