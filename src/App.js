@@ -20,6 +20,60 @@ function App() {
       </div>
       <table className="accordion-container names">
         <tbody>
+          {/* begginning */}
+          <tr>
+            <td className="accordion">
+              <details>
+                <summary className="title">
+                  <span>Crisis - Alexisonfire</span>
+                </summary>
+                <div className="content">
+                  pretty fire album. a classic.
+                  <div className="track">
+                    my favorite track:
+                    <iframe
+                      title="crisis"
+                      style={{ borderRadius: "none" }}
+                      src="https://open.spotify.com/embed/track/6hKnIY2Ssrmqw2TYXW0K5e?utm_source=generator"
+                      width="100%"
+                      height="80"
+                      frameBorder="0"
+                      allowFullScreen=""
+                      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    ></iframe>
+                  </div>
+                </div>
+              </details>
+            </td>
+          </tr>
+          {/* end */}
+          {/* begginning */}
+          <tr>
+            <td className="accordion">
+              <details>
+                <summary className="title">
+                  <span>Portamento - The Drums</span>
+                </summary>
+                <div className="content">
+                  Pretty great album. 
+                  <div className="track">
+                    my favorite track:
+                    <iframe
+                      title="money"
+                      style={{ borderRadius: "none" }}
+                      src="https://open.spotify.com/embed/track/5Q1H7ASDiJpACNx5ziyhuN?si?utm_source=generator"
+                      width="100%"
+                      height="80"
+                      frameBorder="0"
+                      allowFullScreen=""
+                      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    ></iframe>
+                  </div>
+                </div>
+              </details>
+            </td>
+          </tr>
+          {/* end */}
            {/* begginning */}
            <tr>
             <td className="accordion">
