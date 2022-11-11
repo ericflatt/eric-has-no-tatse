@@ -21,6 +21,34 @@ function App() {
       </div>
       <table className="accordion-container names">
         <tbody>
+           {/* begginning */}
+           <tr>
+            <td className="accordion">
+              <details>
+                <summary className="title">
+                  <span>Cracker Island - Gorillaz (feat. Thundercat)</span>
+                </summary>
+                <div className="content">
+                  Old Gorillaz = Great, Thundercat = Great. New Gorillaz + Thundercat = Pretty Good. This track has tones of old Gorillaz plus great Thundercat bass lines making it pretty decent overall.
+                </div>
+              </details>
+            </td>
+          </tr>
+          {/* end */}
+                     {/* begginning */}
+                     <tr>
+            <td className="accordion">
+              <details>
+                <summary className="title">
+                  <span>Modern Baseball</span>
+                </summary>
+                <div className="content">
+                  An overall incredible band. My cousin was/maybe still is friends with the bass player, met him once at his parents house. Unpopular opinion; they shouldn't come back. What they have now is special and is something not a lot of bands have.
+                </div>
+              </details>
+            </td>
+          </tr>
+          {/* end */}
           {/* begginning */}
           <tr>
             <td className="accordion">
