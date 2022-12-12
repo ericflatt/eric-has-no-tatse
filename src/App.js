@@ -10,40 +10,132 @@ function App() {
       </div>
       hello, this is eric has no taste(i actually have great taste).
       <span className="bio">
-        a collection of whatever i want to write/am thinking about(mostly music reviews).
+        a collection of whatever i want to write/am thinking about(mostly music
+        reviews).
       </span>
-      <a href="https://www.discogs.com/user/ericflatt/collection" target={"blank"}>my discogs</a>
+      <a
+        href="https://www.discogs.com/user/ericflatt/collection"
+        target={"blank"}
+      >
+        my discogs
+      </a>
       <div>
         <div className="form">
-          <span>want me to review something specific? send me the details.</span>
+          <span>
+            want me to review something specific? send me the details.
+          </span>
           <Contactform />
         </div>
       </div>
       <table className="accordion-container names">
         <tbody>
-           {/* begginning */}
-           <tr>
+          {/* begginning */}
+          <tr>
+            <td className="accordion">
+              <details>
+                <summary className="title">
+                  <span>SMUG - sunking</span>
+                </summary>
+                <div className="content">
+                  Great Bobby Granfelt and Antoine Martel side project. Their
+                  DIY approach to jazz is what makes them a great duo. <br></br>{" "}
+                  8/10
+                </div>
+                <div>
+                  <a
+                    target={"blank"}
+                    href="https://open.spotify.com/album/7i1c0SEaAoHUB0lD82C2AZ?si=eaQmnO-zSjGBKUXPghY1Fg"
+                  >
+                    Listen here
+                  </a>
+                </div>
+              </details>
+            </td>
+          </tr>
+          {/* end */}
+          {/* begginning */}
+          <tr>
+            <td className="accordion">
+              <details>
+                <summary className="title">
+                  <span>Anyhow - Leland Whitty</span>
+                </summary>
+                <div className="content">
+                  30 minutes of amazing music. A fantastic solo album from
+                  BBNG's Leland Whitty. <br></br> 9/10
+                </div>
+                <div>
+                  <a
+                    target={"blank"}
+                    href="https://open.spotify.com/album/6TD6EZnIkBVaeJMXltgfJ9?si=nlViAAC2QDeBPLa4VektNg"
+                  >
+                    Listen here
+                  </a>
+                </div>
+              </details>
+            </td>
+          </tr>
+          {/* end */}
+          {/* begginning */}
+          <tr>
+            <td className="accordion">
+              <details>
+                <summary className="title">
+                  <span>Skinty Fia - Fontaines D.C.</span>
+                </summary>
+                <div className="content">
+                  A refreshing post punk album and step up from there also great
+                  2019 album. <br></br> 8.5/10
+                </div>
+                <div>
+                  <a
+                    target={"blank"}
+                    href="https://open.spotify.com/album/1R7vPDuTFeqCGOLj1JwfRH?si=oJUdXmCLRNG4sPuAEj4TXw"
+                  >
+                    Listen here
+                  </a>
+                </div>
+              </details>
+            </td>
+          </tr>
+          {/* end */}
+          {/* begginning */}
+          <tr>
             <td className="accordion">
               <details>
                 <summary className="title">
                   <span>Cracker Island - Gorillaz (feat. Thundercat)</span>
                 </summary>
                 <div className="content">
-                  Old Gorillaz = Great, Thundercat = Great. New Gorillaz + Thundercat = Pretty Good. This track has tones of old Gorillaz plus great Thundercat bass lines making it pretty decent overall.
+                  Old Gorillaz = Great, Thundercat = Great. New Gorillaz +
+                  Thundercat = Pretty Good. This track has tones of old Gorillaz
+                  plus great Thundercat bass lines making it pretty decent
+                  overall.
                 </div>
               </details>
             </td>
           </tr>
           {/* end */}
-                     {/* begginning */}
-                     <tr>
+          {/* begginning */}
+          <tr>
             <td className="accordion">
               <details>
                 <summary className="title">
                   <span>Modern Baseball</span>
                 </summary>
                 <div className="content">
-                  An overall incredible band. My cousin was/maybe still is friends with the bass player, met him once at his parents house. Unpopular opinion; they shouldn't come back. What they have now is special and is something not a lot of bands have.
+                  An overall incredible band. My cousin was/maybe still is
+                  friends with the bass player, met him once at his parents
+                  house. Unpopular opinion; they shouldn't come back. What they
+                  have now is special and is something not a lot of bands have.
+                </div>
+                <div>
+                  <a
+                    target={"blank"}
+                    href="https://open.spotify.com/album/4QElAwQufg6wCeyvpafqwA?si=a1WBQg6aTG6yBdOZP3kRjA"
+                  >
+                    Listen here
+                  </a>
                 </div>
               </details>
             </td>
@@ -84,7 +176,7 @@ function App() {
                   <span>Portamento - The Drums</span>
                 </summary>
                 <div className="content">
-                  Pretty great album. 
+                  Pretty great album.
                   <div className="track">
                     my favorite track:
                     <iframe
@@ -103,15 +195,15 @@ function App() {
             </td>
           </tr>
           {/* end */}
-           {/* begginning */}
-           <tr>
+          {/* begginning */}
+          <tr>
             <td className="accordion">
               <details>
                 <summary className="title">
                   <span>Move 78 - my thoughts</span>
                 </summary>
                 <div className="content">
-                  awesome berlin based jazz group with nice electronic elements. 
+                  awesome berlin based jazz group with nice electronic elements.
                   <div className="track">
                     my favorite track:
                     <iframe
@@ -138,7 +230,7 @@ function App() {
                   <span>Ebi Soda - my thoughts</span>
                 </summary>
                 <div className="content">
-                  another great modern experimental jazz group out of england. 
+                  another great modern experimental jazz group out of england.
                   <div className="track">
                     my favorite track:
                     <iframe
@@ -164,9 +256,7 @@ function App() {
                 <summary className="title">
                   <span>movie review - Kill Bill Vol 1</span>
                 </summary>
-                <div className="content">
-                  i need a track suit - 9/10
-                </div>
+                <div className="content">i need a track suit - 9/10</div>
               </details>
             </td>
           </tr>
@@ -179,7 +269,8 @@ function App() {
                   <span>High Pulp - my opinion</span>
                 </summary>
                 <div className="content">
-                  greatest jazz group my ears have ever heard. listen to them. you won't regret it.
+                  greatest jazz group my ears have ever heard. listen to them.
+                  you won't regret it.
                 </div>
               </details>
             </td>
