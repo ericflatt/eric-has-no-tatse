@@ -11,8 +11,7 @@ function App() {
       </div>
       hello, this is eric has no taste(i actually have great taste).
       <span className="bio">
-        a collection of whatever i want to write/am thinking about(mostly music
-        reviews).
+        a collection of curated music reviews.
       </span>
       <a
         href="https://www.discogs.com/user/ericflatt/collection"
