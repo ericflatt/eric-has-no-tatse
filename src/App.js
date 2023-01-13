@@ -1,6 +1,7 @@
 import "./App.css";
 import Contactform from "./form.js";
-import BackToTop from "./totop";
+import BackToTop from "./components/totop";
+import FormModal from "./components/modal"
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             want me to review something specific? send me the details.
           </span>
           <Contactform />
+          <FormModal />
         </div>
       </div>
       <table className="accordion-container names">

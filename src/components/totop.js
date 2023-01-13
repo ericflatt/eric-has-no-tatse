@@ -1,5 +1,5 @@
 // import { useEffect, useState } from "react";
-import "./App.css";
+import "../App.css";
 
 const BackToTop = () => {
   // The back-to-top button is hidden at the beginning
