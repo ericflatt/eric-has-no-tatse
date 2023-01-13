@@ -1,5 +1,5 @@
 import "./App.css";
-import Contactform from "./form.js";
+// import Contactform from "./form.js";
 import BackToTop from "./components/totop";
 import FormModal from "./components/modal"
 
@@ -22,10 +22,8 @@ function App() {
       </a>
       <div>
         <div className="form">
-          <span>
-            want me to review something specific? send me the details.
-          </span>
-          <Contactform />
+
+          {/* <Contactform /> */}
           <FormModal />
         </div>
       </div>
