@@ -253,18 +253,6 @@ function App() {
             <td className="accordion">
               <details>
                 <summary className="title">
-                  <span>movie review - Kill Bill Vol 1</span>
-                </summary>
-                <div className="content">i need a track suit - 9/10</div>
-              </details>
-            </td>
-          </tr>
-          {/* end */}
-          {/* begginning */}
-          <tr>
-            <td className="accordion">
-              <details>
-                <summary className="title">
                   <span>High Pulp - my opinion</span>
                 </summary>
                 <div className="content">
@@ -326,7 +314,7 @@ function App() {
             <td className="accordion">
               <details>
                 <summary className="title">
-                  <span>music review: The Ladies - They Mean Us</span>
+                  <span>The Ladies - They Mean Us</span>
                 </summary>
                 <div className="content">
                   a great Zach Hill side project. 8/10
@@ -353,7 +341,7 @@ function App() {
             <td className="accordion">
               <details>
                 <summary className="title">
-                  <span>music review: High Pulp - Pursuit of Ends</span>
+                  <span>High Pulp - Pursuit of Ends</span>
                 </summary>
                 <div className="content">
                   a no skips experimental jazz album that's pretty good. 9/10
